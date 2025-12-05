@@ -92,4 +92,4 @@ app.config['SECRET_KEY'] = 'ThisIsSecretSecretSecretLife'
 
 if __name__ == "__main__":
     # Lanzar el servidor web:
-    app.run()
+    app.run(debug=False)
